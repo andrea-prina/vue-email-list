@@ -23,7 +23,11 @@
 <body>
 
     <div id="app">
-        
+        <ul>
+            <li v-for="mailItem in mailingList">
+                {{mailItem}}
+            </li>
+        </ul>
     </div>
 
     <script src="./js/main.js"></script>
